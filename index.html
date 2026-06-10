@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CZ Coaching Classes | Premium Education</title>
+    <!-- Tailwind CSS for high-performance responsive utility styling -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FontAwesome Core for design icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased scroll-smooth">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <div class="h-10 w-10 bg-black text-white flex items-center justify-center font-bold text-xl rounded-lg">CZ</div>
+                <span class="font-bold text-xl tracking-tight uppercase">Coaching Classes</span>
+            </div>
+            
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-gray-600">
+                <a href="#features" class="hover:text-black transition">Features</a>
+                <a href="#modes" class="hover:text-black transition">Platform Modes</a>
+                <a href="#teachers" class="hover:text-black transition">Our Faculty</a>
+                <a href="#inquiry" class="bg-black text-white px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-sm">Inquire Now</a>
+            </nav>
+
+            <!-- Mobile Menu Switcher -->
+            <button id="mobile-menu-btn" class="md:hidden text-gray-700 focus:outline-none p-2" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Dynamic Drawer Layout -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-6 py-4 space-y-3 shadow-lg">
+            <a href="#features" class="block text-gray-600 font-medium py-2">Features</a>
+            <a href="#modes" class="block text-gray-600 font-medium py-2">Platform Modes</a>
+            <a href="#teachers" class="block text-gray-600 font-medium py-2">Our Faculty</a>
+            <a href="#inquiry" class="block text-center bg-black text-white px-4 py-3 rounded-xl font-medium mt-4">Inquire Now</a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16 text-center md:text-left md:flex md:items-center md:justify-between gap-12">
+        <div class="md:w-1/2 space-y-6">
+            <div class="inline-flex items-center space-x-2 bg-gray-100 px-3 py-1 rounded-full text-xs font-semibold tracking-wider text-gray-600 uppercase">
+                <span class="flex h-2 w-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Admissions Open 2026-27</span>
+            </div>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
+                Shaping Minds, <br><span class="text-gray-500">Building Futures.</span>
+            </h1>
+            <p class="text-base text-gray-500 max-w-lg mx-auto md:mx-0 leading-relaxed">
+                Premium, concept-focused tuition classes designed to maximize school results and competitive exam potential.
+            </p>
+            <div class="pt-2 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="#inquiry" class="bg-black text-white text-center px-8 py-4 rounded-xl font-medium shadow-md hover:bg-gray-800 transition">Start Your Journey</a>
+                <a href="whatsapp://send?phone=919173384090&text=Hello%20CZ%20Coaching%20Classes!%20I%20want%20to%20know%20more%20about%20your%20batches." class="border border-gray-200 bg-white text-center text-gray-700 px-8 py-4 rounded-xl font-medium hover:bg-gray-50 transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-emerald-500 text-lg"></i> Quick WhatsApp Chat
+                </a>
+            </div>
+        </div>
+        
+        <!-- Minimal Graphic Box -->
+        <div class="hidden md:block md:w-1/2 bg-gray-100 h-96 rounded-2xl relative overflow-hidden flex items-center justify-center border border-gray-200">
+            <div class="text-center p-8 space-y-4">
+                <div class="h-16 w-16 bg-white rounded-2xl mx-auto flex items-center justify-center shadow-md">
+                    <i class="fa-solid fa-graduation-cap text-2xl text-black"></i>
+                </div>
+                <div class="text-sm font-semibold tracking-widest text-gray-400 uppercase">CZ Learning Environment</div>
+                <p class="text-gray-500 max-w-xs text-xs">A minimalist workspace built mathematically around focus, comprehension, and consistent performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CORE FEATURES SPECIFICATION -->
+    <section id="features" class="bg-white border-y border-gray-100 py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+                <h2 class="text-3xl font-bold tracking-tight">Engineered for Academic Success</h2>
+                <p class="text-gray-500 text-sm">We balance structure and flexibility to deliver an unparalleled learning environment across digital educational setups.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 space-y-3">
+                    <div class="h-12 w-12 bg-black text-white rounded-xl flex items-center justify-center shadow-sm">
+                        <i class="fa-solid fa-book-open text-lg"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold">Concept-First Teaching</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">We don't teach rote memorization. We break down subjects fundamentally so students understand the underlying logic.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 space-y-3">
+                    <div class="h-12 w-12 bg-black text-white rounded-xl flex items-center justify-center shadow-sm">
+                        <i class="fa-solid fa-square-poll-vertical text-lg"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold">Weekly Standard Tests</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Rigorous progress tracking using modern chapter tests, performance analytics, and custom feedback loops.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-gray-50 border border-gray-100 space-y-3">
+                    <div class="h-12 w-12 bg-black text-white rounded-xl flex items-center justify-center shadow-sm">
+                        <i class="fa-solid fa-laptop-code text-lg"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold">Responsive Infrastructure</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Access online scheduling and performance indexes seamlessly via a complete Desktop dashboard or a highly optimized Mobile layout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE WORKSPACE LAYOUT SIMULATOR -->
+    <section id="modes" class="bg-gray-900 text-white py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-10 space-y-2">
+                <h2 class="text-3xl font-bold tracking-tight">Cross-Platform Experience</h2>
+                <p class="text-gray-400 text-sm">Click the buttons below to switch and preview the interface architecture optimized for both learning environments.</p>
+            </div>
+
+            <!-- Interactive Toggle Buttons -->
+            <div class="flex justify-center flex-wrap gap-3 mb-10">
+                <button id="btn-desktop" class="px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-white text-black shadow-md scale-105 active:scale-95">
+                    <i class="fa-solid fa-desktop"></i> Simulate Desktop Layout
+                </button>
+                <button id="btn-mobile" class="px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-gray-800 text-gray-400 active:scale-95">
+                    <i class="fa-solid fa-mobile-screen-button"></i> Simulate Mobile Layout
+                </button>
+            </div>
+
+            <!-- Dynamic Display Container -->
+            <div class="bg-gray-800 border border-gray-700 rounded-2xl p-6 max-w-3xl mx-auto transition-all duration-300" id="simulator-container">
+                
+                <!-- Desktop View Content -->
+                <div id="desktop-view" class="space-y-4">
+                    <div class="text-xs font-bold text-emerald-400 tracking-widest uppercase flex items-center gap-2">
+                        <span class="h-2 w-2 rounded-full bg-emerald-400 animate-ping"></span> ACTIVE VIEW: DESKTOP DASHBOARD
+                    </div>
+                    <h3 class="text-xl font-bold">Comprehensive Student Analytics Dashboard</h3>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        Features immersive widescreen layouts designed for deep focus learning at home. Desktop mode presents detailed performance heatmaps, comprehensive schedule matrix grids, and easy download links for resource packages.
+                    </p>
+                    <div class="pt-2 grid grid-cols-3 gap-2 text-center text-[10px]">
+                        <div class="p-2 bg-gray-700/50 rounded-lg border border-gray-600"><i class="fa-solid fa-chart-line mb-1 block text-emerald-400 text-base"></i> Metrics Panel</div>
+                        <div class="p-2 bg-gray-700/50 rounded-lg border border-gray-600"><i class="fa-solid fa-table-cells mb-1 block text-emerald-400 text-base"></i> Grid Planner</div>
+                        <div class="p-2 bg-gray-700/50 rounded-lg border border-gray-600"><i class="fa-solid fa-file-pdf mb-1 block text-emerald-400 text-base"></i> Resources</div>
+                    </div>
+                </div>
+
+                <!-- Mobile View Content -->
+                <div id="mobile-view" class="hidden space-y-4 max-w-xs mx-auto border-x border-gray-700 px-2">
+                    <div class="text-xs font-bold text-amber-400 tracking-widest uppercase flex items-center gap-2">
+                        <span class="h-2 w-2 rounded-full bg-amber-400 animate-ping"></span> ACTIVE VIEW: MOBILE QUICK ACTIONS
+                    </div>
+                    <h3 class="text-lg font-bold">On-The-Go Mobile Setup</h3>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        A clean, minimalist vertical stack optimized for mobile viewports. Features instantaneous push announcements, 1-tap fast assignment snapshots upload, and quick messaging pipelines directly to faculty support.
+                    </p>
+                    <div class="pt-2 grid grid-cols-2 gap-2 text-center text-[10px]">
+                        <div class="p-2 bg-gray-700/50 rounded-lg border border-gray-600"><i class="fa-solid fa-bell mb-1 block text-amber-400 text-base"></i> Push Alerts</div>
+                        <div class="p-2 bg-gray-700/50 rounded-lg border border-gray-600"><i class="fa-solid fa-bolt mb-1 block text-amber-400 text-base"></i> Fast Upload</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FACULTY DETAILS SECTION -->
+    <section id="teachers" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-6 text-center md:text-left">
+        <div class="max-w-2xl mx-auto md:mx-0">
+            <h2 class="text-3xl font-bold tracking-tight">Our Expert Faculty</h2>
+            <p class="text-gray-500 text-sm mt-1">Every mentor at CZ Coaching brings domain expertise alongside a student-centric communication style.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
+            <div class="p-5 bg-white border border-gray-100 rounded-2xl shadow-sm space-y-1">
+                <div class="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center"><i class="fa-solid fa-check text-xs"></i></div>
+                <h4 class="font-bold text-gray-900 pt-1 text-sm">Certified Specialists</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">Teachers hold master-level qualifications and years of formal board-level coaching experience.</p>
+            </div>
+            <div class="p-5 bg-white border border-gray-100 rounded-2xl shadow-sm space-y-1">
+                <div class="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center"><i class="fa-solid fa-check text-xs"></i></div>
+                <h4 class="font-bold text-gray-900 pt-1 text-sm">Personal Doubt Support</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">Dedicated scheduling arrays every week exclusively for resolving individual student queries.</p>
+            </div>
+            <div class="p-5 bg-white border border-gray-100 rounded-2xl shadow-sm space-y-1">
+                <div class="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center"><i class="fa-solid fa-check text-xs"></i></div>
+                <h4 class="font-bold text-gray-900 pt-1 text-sm">Parent-Teacher Syncs</h4>
+                <p class="text-xs text-gray-500 leading-relaxed">Regular monthly diagnostic checkups to transparently display conceptual metrics and target milestones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INQUIRY FORM PANEL (WHATSAPP APP DEEP LINK WORKING) -->
+    <section id="inquiry" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="bg-white border border-gray-200 rounded-3xl p-6 sm:p-12 shadow-sm space-y-6">
+            <div class="text-center space-y-2">
+                <h2 class="text-2xl font-bold tracking-tight">Student Inquiry Desk</h2>
+                <p class="text-gray-500 text-xs">Fill details below. Clicking the button will launch your WhatsApp app automatically with your inquiry text typed out cleanly.</p>
+            </div>
+
+            <form id="whatsappForm" class="space-y-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="space-y-1">
+                        <label for="studentName" class="block text-[10px] font-bold uppercase tracking-wider text-gray-600">Student Name</label>
+                        <input type="text" id="studentName" required class="w-full px-4 py-3 border border-gray-200 rounded-xl bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-black text-sm transition" placeholder="Your Name">
+                    </div>
+                    <div class="space-y-1">
+                        <label for="studentClass" class="block text-[10px] font-bold uppercase tracking-wider text-gray-600">Target Class / Standard</label>
+                        <input type="text" id="studentClass" required class="w-full px-4 py-3 border border-gray-200 rounded-xl bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-black text-sm transition" placeholder="e.g. Class 9">
+                    </div>
+                </div>
+                <div class="space-y-1">
+                    <label for="studentMessage" class="block text-[10px] font-bold uppercase tracking-wider text-gray-600">Inquiry Message</label>
+                    <textarea id="studentMessage" rows="3" required class="w-full px-4 py-3 border border-gray-200 rounded-xl bg-gray-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-black text-sm transition resize-none" placeholder="Write your timing or subjects query..."></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-emerald-600 text-white font-medium py-4 rounded-xl hover:bg-emerald-700 transition flex items-center justify-center gap-2 shadow-md active:scale-98">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> Launch WhatsApp Inquiry
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-gray-50 border-t border-gray-200 pt-12 pb-6 text-xs text-gray-500">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+            
+            <!-- Branding Vector & Instagram Hook -->
+            <div class="space-y-3">
+                <div class="flex items-center space-x-2 text-black">
+                    <div class="h-8 w-8 bg-black text-white flex items-center justify-center font-bold rounded-md text-sm">CZ</div>
+                    <span class="font-bold tracking-tight uppercase">Coaching Classes</span>
+                </div>
+                <p class="leading-relaxed text-gray-400">Delivering structured conceptual training frameworks to top-tier clarity and consistent performance metrics.</p>
+                <div class="pt-1">
+                    <a href="https://www.instagram.com/cz_coaching_cz?igsh=MWF2eWd3NWJoZTA0OQ==" target="_blank" class="inline-flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-purple-600 to-pink-500 text-white font-medium rounded-xl hover:opacity-90 shadow-sm transition">
+                        <i class="fa-brands fa-instagram text-xs"></i> Instagram @cz_coaching_cz
+                    </a>
+                </div>
+            </div>
+
+            <!-- HQ Coordinates and Email -->
+            <div class="space-y-3">
+                <h4 class="font-bold uppercase tracking-wider text-gray-900 text-[10px]">Campus Headquarters</h4>
+                <p class="leading-relaxed">
+                    406/407, Sv Square, Khodiyar Mata Temple Rd, <br>
+                    opposite sawan bungalows, New Ranip, <br>
+                    Ahmedabad, Gujarat 382470
+                </p>
+                <div class="pt-1">
+                    <span class="block font-semibold text-gray-400">Direct Email:</span>
+                    <a href="mailto:czcouchingclasses.@gmail.com" class="text-black hover:underline">czcouchingclasses.@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- Contact Numbers -->
+            <div class="space-y-3">
+                <h4 class="font-bold uppercase tracking-wider text-gray-900 text-[10px]">Contact Operations</h4>
+                <div class="space-y-2">
+                    <a href="tel:+919173384090" class="flex items-center space-x-2 text-gray-700 hover:text-black transition">
+                        <div class="w-7 h-7 rounded-lg bg-gray-100 flex items-center justify-center text-gray-500"><i class="fa-solid fa-phone text-[10px]"></i></div>
+                        <span class="font-medium">+91 91733 84090</span>
+                    </a>
+                    <a href="tel:+918128193766" class="flex items-center space-x-2 text-gray-700 hover:text-black transition">
+                        <div class="w-7 h-7 rounded-lg bg-gray-100 flex items-center justify-center text-gray-500"><i class="fa-solid fa-phone text-[10px]"></i></div>
+                        <span class="font-medium">+91 81281 93766</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Base -->
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-200/60 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-gray-400 text-[11px]">
+            <p>&copy; 2026 CZ Coaching Classes. All Rights Reserved.</p>
+            <div class="space-x-3">
+                <a href="#features" class="hover:text-gray-600">Privacy Overview</a>
+                <a href="#inquiry" class="hover:text-gray-600">Terms of Enrollment</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT LOGIC CORE -->
+    <script>
+        // Responsive Drawer Navigation Logic
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            const icon = menuBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                const icon = menuBtn.querySelector('i');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-xmark');
+            });
+        });
+
+        // PLATFORM MODES SIMULATOR CONTROLLER
+        const btnDesktop = document.getElementById('btn-desktop');
+        const btnMobile = document.getElementById('btn-mobile');
+        const viewDesktop = document.getElementById('desktop-view');
+        const viewMobile = document.getElementById('mobile-view');
+        const simContainer = document.getElementById('simulator-container');
+
+        btnDesktop.addEventListener('click', () => {
+            btnDesktop.className = "px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-white text-black shadow-md scale-105";
+            btnMobile.className = "px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-gray-800 text-gray-400";
+            viewMobile.classList.add('hidden');
+            viewDesktop.classList.remove('hidden');
+            simContainer.className = "bg-gray-800 border border-gray-700 rounded-2xl p-6 max-w-3xl mx-auto transition-all duration-300";
+        });
+
+        btnMobile.addEventListener('click', () => {
+            btnMobile.className = "px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-white text-black shadow-md scale-105";
+            btnDesktop.className = "px-5 py-3 rounded-xl font-semibold text-xs transition flex items-center gap-2 bg-gray-800 text-gray-400";
+            viewDesktop.classList.add('hidden');
+            viewMobile.classList.remove('hidden');
+            simContainer.className = "bg-gray-800 border border-gray-700 rounded-2xl p-6 max-w-xs mx-auto transition-all duration-300 shadow-xl ring-4 ring-gray-950/20";
+        });
+
+        // NATIVE MOBILE DEEP LINK WHATSAPP SYSTEM
+        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('studentName').value.trim();
+            const targetClass = document.getElementById('studentClass').value.trim();
+            const message = document.getElementById('studentMessage').value.trim();
+            
+            const targetNumber = "919173384090"; 
+            const textString = `Hello CZ Coaching Classes,\n\nI would like to make an inquiry details below:\n\n*Student Name:* ${name}\n*Class/Standard:* ${targetClass}\n*Message:* ${message}`;
+            
+            // Encode message for stable URL syntax
+            const encodedText = encodeURIComponent(textString);
+            
+            // Uses mobile system protocol directly to load native app effortlessly
+            const nativeWhatsAppUrl = `whatsapp://send?phone=${targetNumber}&text=${encodedText}`;
+            const fallbackWebUrl = `https://wa.me/${targetNumber}?text=${encodedText}`;
+            
+            // Try launching app, fallback to web tab if it takes too long
+            window.location.href = nativeWhatsAppUrl;
+            
+            setTimeout(() => {
+                window.open(fallbackWebUrl, '_blank');
+            }, 500);
+        });
+    </script>
+</body>
+</html>
